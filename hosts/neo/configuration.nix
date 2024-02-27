@@ -120,12 +120,8 @@
   # Add NixOS experimental features - FLAKES
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # Add CachyOS linux kernel (hopefully precompiled...)
-  boot.kernelPackages = pkgs.linuxPackages_cachyos;
-
-  # Add linux-zen kernel for now, the v4l2-playback thing does not behave well with
-  # CachyOS kernel...
-  # boot.kernelPackages = pkgs.linuxPackages_zen;
+  # Use an optimized kernel
+  boot.kernelPackages = pkgs.linuxPackages_zen;
 
   # enable zram
   zramSwap = {
