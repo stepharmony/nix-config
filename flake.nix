@@ -12,14 +12,14 @@
   };
 
   outputs = { self, nixpkgs, chaotic, home-manager, ... }@inputs: {
-    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.neo = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
         chaotic.nixosModules.default
 
         # Import the previous configuration.nix we used,
         # so the old configuration file still takes effect
-        ./hosts/nixos/configuration.nix
+        ./hosts/neo/configuration.nix
 
         home-manager.nixosModules.home-manager
         {
