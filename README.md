@@ -1,3 +1,5 @@
+> [!WARNING] ARCHIVAL NOTICE
+> This repo is archived because I'm starting from scratch. Check out my other NixOS config repo instead.
 # My NixOS config
 ## done so far
 - integrated flakes + home-manager with nixos-unstable (although it's kinda janky rn, might redo)
