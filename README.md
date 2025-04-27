@@ -1,4 +1,4 @@
-> [!WARNING] ARCHIVAL NOTICE
+> [!WARNING]
 > This repo is archived because I'm starting from scratch. Check out my other NixOS config repo instead.
 # My NixOS config
 ## done so far
