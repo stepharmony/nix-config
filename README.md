@@ -1,5 +1,5 @@
 > [!WARNING]
-> This repo is archived because I'm starting from scratch. Check out my other NixOS config repo instead.
+> This repo is archived because I'm starting from scratch. Check out [my other NixOS config repo](https://github.com/stepharmony/nixos-dotfiles) instead.
 # My NixOS config
 ## done so far
 - integrated flakes + home-manager with nixos-unstable (although it's kinda janky rn, might redo)
